@@ -22,7 +22,7 @@ const Messages = async () => {
             >
                 <PageHeaderHeading size="sm" className="font-heading mb-2 tracking-normal">Messages</PageHeaderHeading>
                 <PageHeaderDescription size="sm">
-                    Explore your private dm from Chacha Jema
+                    Explore your private dm from Kelele
                 </PageHeaderDescription>
             </PageHeader>
             {!messages.length && (

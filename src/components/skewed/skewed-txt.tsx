@@ -4,10 +4,10 @@ const Skewed = () => {
     return (
         <div className="center">
             <h1>
-                <span>CHACHA</span>
+                <span>KELELE</span>
 
-                <span>CHACHA</span>
-                <span>CHACHA</span>
+                <span>KELELE</span>
+                <span>KELELE</span>
 
             </h1>
         </div>

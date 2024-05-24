@@ -61,7 +61,7 @@ const World = () => (
               </h4>
             </div>
             <h3 className="text-center text-[24px] font-bold text-white">
-              Grow on ChaCha
+              Grow on KELELE STREAMING
             </h3>
           </div>
         </div>

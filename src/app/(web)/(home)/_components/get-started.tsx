@@ -41,7 +41,7 @@ const GetStarted = () => (
         className="flex flex-[0.75] flex-col justify-center"
       >
         {/* <TypingText title="| How Metaversus Works" /> */}
-        <TitleText title={<>START ON CHACHA</>} />
+        <TitleText title={<>START ON KELELE STREAMING</>} />
         <div className="mt-[31px] flex max-w-[500px] flex-col gap-[10px]">
           {startingFeatures.map((feature, index) => (
             <StartSteps

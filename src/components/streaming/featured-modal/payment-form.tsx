@@ -77,7 +77,7 @@ export function PaymentForm({ username }: { username: string }) {
     async function onSubmitHandle(d: PaymentSchema) {
         const data = form.getValues()
         setLoading(true)
-   
+
         const refNumber = uuidv4()
         try {
 
@@ -102,16 +102,16 @@ export function PaymentForm({ username }: { username: string }) {
                 }
             }
 
-            const response = await axios.post(`/api/chapa`,body, header);
+            const response = await axios.post(`/api/chapa`, body, header);
             if (response.data) {
 
                 toast.success("You have succesfully perform the transaction!")
             } else {
                 toast.error("Failed to make the transactions")
             }
-         
+
             setLoading(false)
-       
+
             window.location.href = response.data.data.checkout_url;
         } catch (err) {
             toast.error("Failed to make the transactions")
@@ -172,7 +172,7 @@ export function PaymentForm({ username }: { username: string }) {
                         <FormItem>
                             <FormLabel>Email</FormLabel>
                             <FormControl>
-                                <Input placeholder="kinfish@chacha.xyz" {...field} />
+                                <Input placeholder="kinfish@KELELE.xyz" {...field} />
                             </FormControl>
 
                             <FormMessage />

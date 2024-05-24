@@ -21,7 +21,7 @@ export const Logo = () => {
 
         )}>
           <p className="text-lg font-semibold">
-            ChaCha
+            KELELE STREAMING
           </p>
           <p className="text-xs text-muted-foreground">
             Cook Something
